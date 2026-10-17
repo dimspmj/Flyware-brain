@@ -39,8 +39,11 @@ Mode ini menggunakan data konektom navigasi lalat asli (seperti neuron sensorik,
    pip install neuprint-python
 2. Dapatkaan token dari website neuJaneila
    lalu masukkan disini
-   set NEUPRINT_TOKEN="xxx"
+    ```bash
+    set NEUPRINT_TOKEN="xxx"
 3. Lakukan penarikan data dari otak API key dengan perintah
-   python scripts/fetch_hemibrain.py
+    ```bash
+    python scripts/fetch_hemibrain.py
 4. Lalu jalankan bot dengan perintah
-   npm start
+    ```bash
+    npm start
